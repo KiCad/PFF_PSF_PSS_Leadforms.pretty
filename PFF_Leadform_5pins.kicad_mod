@@ -2,11 +2,11 @@
   (at 0 0)
   (descr "Allegro, Hallsensor, Through hole, Package CB-PFF,")
   (tags "Allegro, Hallsensor, Through hole, Package CB-PFF,")
-  (fp_text reference IC (at 0.20066 -14.89964) (layer F.SilkS)
-    (effects (font (thickness 0.3048)))
+  (fp_text reference PFF_Leadform_5pins (at 0.20066 -14.89964) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value PFF_Leadform_5pins (at 0.20066 13.89888) (layer F.SilkS) hide
-    (effects (font (thickness 0.3048)))
+  (fp_text value VAL** (at 0.20066 13.89888) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.2004 7.8994) (end -3.50012 7.80034) (layer F.SilkS) (width 0.15))
   (fp_line (start -3.50012 7.80034) (end -3.79984 7.8994) (layer F.SilkS) (width 0.15))
