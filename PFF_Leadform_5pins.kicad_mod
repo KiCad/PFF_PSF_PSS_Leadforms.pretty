@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Allegro, Hallsensor, Through hole, Package CB-PFF,")
   (tags "Allegro, Hallsensor, Through hole, Package CB-PFF,")
-  (fp_text reference PFF_Leadform_5pins (at 0.20066 -14.89964) (layer F.SilkS)
+  (fp_text reference REF** (at 0.20066 -14.89964) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.20066 13.89888) (layer F.SilkS) hide
+  (fp_text value PFF_Leadform_5pins (at 0.20066 13.89888) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start -3.2004 7.8994) (end -3.50012 7.80034) (layer F.SilkS) (width 0.15))
@@ -424,7 +424,7 @@
   (pad 2 thru_hole circle (at 0 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
   (pad 3 thru_hole circle (at 1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
   (pad 1 thru_hole circle (at -1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
-  (model PFF_PSF_PSS_Leadforms/PFF_Leadform_5pins.wrl
+  (model PFF_PSF_PSS_Leadforms.3dshapes/PFF_Leadform_5pins.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

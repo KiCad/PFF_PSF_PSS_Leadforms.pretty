@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Allegro, Hallsensor, SMD, Package CB-PSS,")
   (tags "Allegro, Hallsensor, SMD, Package CB-PSS,")
-  (fp_text reference PSS_Leadform_5pins (at 0.20066 -14.89964) (layer F.SilkS)
+  (fp_text reference REF** (at 0.20066 -14.89964) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at -0.09906 19.49958) (layer F.SilkS) hide
+  (fp_text value PSS_Leadform_5pins (at -0.09906 19.49958) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 5.90042 -5.95122) (end 5.95122 6.4008) (layer Edge.Cuts) (width 0.381))
@@ -112,7 +112,7 @@
   (pad 1 smd rect (at -1.89992 13.89888) (size 1.00076 7.50062) (layers F.Cu F.Paste F.Mask))
   (pad 4 smd rect (at 5.6007 -13.70076) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -5.6007 -13.70076) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
-  (model PFF_PSF_PSS_Leadforms/PSS_Leadform_5pins.wrl
+  (model PFF_PSF_PSS_Leadforms.3dshapes/PSS_Leadform_5pins.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))

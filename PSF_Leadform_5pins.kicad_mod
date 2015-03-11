@@ -2,10 +2,10 @@
   (at 0 0)
   (descr "Allegro, Hallsensor, Throughhole-SMD hybrid, Package CB-PSF,")
   (tags "Allegro, Hallsensor, Throughhole-SMD hybrid, Package CB-PSF,")
-  (fp_text reference PSF_Leadform_5pins (at 0.20066 -14.89964) (layer F.SilkS)
+  (fp_text reference REF** (at 0.20066 -14.89964) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (fp_text value VAL** (at 0.20066 13.89888) (layer F.SilkS) hide
+  (fp_text value PSF_Leadform_5pins (at 0.20066 13.89888) (layer F.Fab)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_line (start 5.90042 6.35) (end 5.84962 6.64972) (layer Edge.Cuts) (width 0.381))
@@ -121,7 +121,7 @@
   (pad 1 thru_hole circle (at -1.91008 10.70102) (size 1.50114 1.50114) (drill 0.89916) (layers *.Cu *.Mask F.SilkS))
   (pad 4 smd rect (at 5.40004 -13.89888) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
   (pad 5 smd rect (at -5.40004 -13.89888) (size 5.50164 12.0015) (layers F.Cu F.Paste F.Mask))
-  (model PFF_PSF_PSS_Leadforms/PSF_Leadform_5pins.wrl
+  (model PFF_PSF_PSS_Leadforms.3dshapes/PSF_Leadform_5pins.wrl
     (at (xyz 0 0 0))
     (scale (xyz 0.3937 0.3937 0.3937))
     (rotate (xyz 0 0 0))
